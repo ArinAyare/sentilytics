@@ -1,0 +1,62 @@
+{
+  "model_name": "TF-IDF + Logistic Regression",
+  "accuracy": 0.8085,
+  "macro_f1": 0.7539,
+  "weighted_f1": 0.8096,
+  "per_class": {
+    "negative": {
+      "precision": 0.8887,
+      "recall": 0.875,
+      "f1-score": 0.8818,
+      "support": 1360
+    },
+    "neutral": {
+      "precision": 0.6296,
+      "recall": 0.6524,
+      "f1-score": 0.6408,
+      "support": 443
+    },
+    "positive": {
+      "precision": 0.7337,
+      "recall": 0.7447,
+      "f1-score": 0.7392,
+      "support": 333
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "negative",
+      "neutral",
+      "positive"
+    ],
+    "matrix": [
+      [
+        1190,
+        126,
+        44
+      ],
+      [
+        108,
+        289,
+        46
+      ],
+      [
+        41,
+        44,
+        248
+      ]
+    ]
+  },
+  "test_size": 2136,
+  "trained_at": "2026-10-09T11:32:45.841014+00:00",
+  "train_size": 9968,
+  "val_accuracy": 0.8024,
+  "hyperparameters": {
+    "C": 4.0,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "max_features": 100000
+  }
+}

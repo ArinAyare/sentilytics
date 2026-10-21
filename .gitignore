@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+ml/data/raw/
+ml/data/processed/
+artifacts/*/model.joblib
+artifacts/transformer/model/
+azure_ml/scoring/common.py
+.venv/
+mlflow.db
+mlruns/
+.DS_Store
+.pytest_cache/
